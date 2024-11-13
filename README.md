@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# helping_parents
+Projeto para ajudar pais a praticar exercícios de fisioterapia em casa com seus filhos.
+>>>>>>> origin/main
