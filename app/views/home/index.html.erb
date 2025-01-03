@@ -1,16 +1,90 @@
 <head></head>
 <body>
-    <div class="container-fluid">
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                Da fisio para casa - Desenvolimento infantil: Orientação aos pais
-                </a>
+    <div class="p-3 border-0 bd-example m-1">
+        <div class="container-fluid">
+            <nav class="navbar">
+                <div class="container-fluid d-flex justify-content-center">
+                    <h1 class="navbar-brand">
+                    <img <%= image_tag("logos/fisioterapia.png", alt: "Logo", width: "40", height: "34", class: "d-inline-block align-text-top") %>
+                    Da fisio para casa - Desenvolvimento infantil    
+                    </h1>
+                </div>
+            </nav>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-body" style="text-align: center">
+                <h4 class="lead">"A fisioterapia infantil é como um super-herói para as crianças, ajudando-as a superar desafios e a se tornarem fortes e independentes!"</h4>
             </div>
-        </nav>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Importância da fisioterapia infantil</h5>
+                        <p>A fisioterapia infantil desempenha um papel crucial no desenvolvimento e bem-estar. Ela não apenas trata condições existentes, mas também promove um desenvolvimento saudável e ativo, contribuindo para a qualidade de vida das crianças.</p>
+                        <p><b>Imagine uma criança que está aprendendo a andar, mas ainda precisa de apoio para se manter em pé.</b> A fisioterapia pode ajudar a fortalecer os músculos das pernas e melhorar o equilíbrio, dando à criança a confiança para dar seus primeiros passos com segurança.</p>
+                        <p><b>E se uma criança tiver dificuldade para segurar um lápis ou abotoar sua roupa?</b> A fisioterapia pode trabalhar a coordenação motora fina, ajudando a criança a realizar essas tarefas com mais facilidade e independência.</p>
+                        <p><b>Agora pense em uma criança que sofreu uma queda e machucou o braço.</b> A fisioterapia pode ajudar a reduzir a dor, a inchaço e a recuperar a mobilidade do braço, permitindo que a criança volte a brincar e se divertir sem limitações.</p>
+                    </div>
+                    <img <%= image_tag("body/pediatrics-physiotherapy.jpeg", alt: "pediatrics physiotherapy", class: "img-fluid rounded mx-auto d-block") %>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Como a fisioterapia infantil pode ajudar crianças com diferentes necessidades</h5>
+                        <br>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Desenvolvimento Motor</h6>
+                        <ul>
+                            <li><b>Atraso no desenvolvimento:</b> Crianças que têm dificuldades em alcançar marcos de desenvolvimento, como sentar, engatinhar ou andar, podem se beneficiar de exercícios específicos que fortalecem os músculos e melhoram a coordenação.</li>
+                            <li><b>Coordenação motora fina:</b> A fisioterapia ajuda crianças a desenvolver habilidades como segurar objetos, desenhar ou abotoar roupas, promovendo a independência nas atividades diárias.</li>
+                        </ul>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Doenças Neuromusculares</h6>
+                        <ul>
+                            <li><b>Paralisia cerebral:</b> A fisioterapia neurofuncional é essencial para ajudar a melhorar a mobilidade, a força e a coordenação em crianças com paralisia cerebral, permitindo que elas alcancem seu potencial máximo.</li>
+                            <li><b>Distrofia muscular:</b> O tratamento pode incluir exercícios para manter a força muscular e a flexibilidade, além de técnicas para melhorar a postura.</li>
+                        </ul>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Lesões</h6>
+                        <ul>
+                            <li><b>Fraturas e entorses:</b> Após uma lesão, a fisioterapia é fundamental para a reabilitação, ajudando a restaurar a função e a mobilidade, além de reduzir a dor e o inchaço.</li>
+                            <li><b>Recuperação pós-cirúrgica:</b> Crianças que passaram por cirurgias ortopédicas podem precisar de fisioterapia para recuperar a força e a função.</li>
+                        </ul>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Doenças Respiratórias</h6>
+                        <ul>
+                            <li><b>Asma e bronquiolite:</b> A fisioterapia respiratória pode ajudar a melhorar a capacidade pulmonar e a eficiência respiratória, ensinando técnicas de respiração e exercícios que facilitam a respiração.</li>
+                        </ul>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Condições Especiais</h6>
+                        <ul>
+                            <li><b>Torcicolo congênito e assimetria craniana:</b> A fisioterapia pode ajudar a corrigir essas condições, promovendo o desenvolvimento simétrico e saudável da cabeça e do pescoço.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    
+    <br>
+    <section style="background-color: #4ED28E">
+        <br>
+        <br>
+        <div class="card mx-auto" style="width: 50%;">
+            <div class="card-body">
+                <h5 class="card-title">Exercício 1</h5>
+                <p class="card-text">Aqui vai a descrição do exercício.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Aqui</li>
+                <li class="list-group-item">Podem ter</li>
+                <li class="list-group-item">Algumas classificações</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Link do Vídeo</a>
+            </div>
+            <iframe width="420" height="315" class="card-img-bottom"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div>
+    </section>
 </body>
 
