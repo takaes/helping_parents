@@ -1,5 +1,5 @@
 <head></head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#card-list">
     <div class="p-3 border-0 bd-example m-1">
         <div class="container-fluid">
             <nav class="navbar">
@@ -64,26 +64,123 @@
             </div>
         </div>
     </div>
-    <br>
-    <section style="background-color: #4ED28E">
-        <br>
-        <br>
-        <div class="card mx-auto" style="width: 50%;">
-            <div class="card-body">
-                <h5 class="card-title">Exercício 1</h5>
-                <p class="card-text">Aqui vai a descrição do exercício.</p>
+    
+    <section style="background-color:  #4ED28E" data-bs-target="#card-list">
+        <div style="background-image: linear-gradient(white, #4ED28E)" class="p-3 border-0" >
+            <hr class="rounded" style="border-top: 8px solid #bbb; border-radius: 5px;">
+            <br>
+            <div class="card col-sm-4 mb-3 sticky-top" style="margin: auto;"> 
+                <div class="card-body clearfix container-fluid" >
+                    <div class="box" style="float:left; ">
+                        <h4 class="lead">Exercícios</h4> 
+                    </div>
+                    <div class="box" style="float:right;">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navbar-brand" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Classificação por idade</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#idadeHeading1">1 a 4 meses</a></li>
+                                    <li><a class="dropdown-item" href="#idadeHeading2">5 a 8 meses</a></li>
+                                    <li><a class="dropdown-item" href="#idadeHeading3">9 a 12 meses</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#idadeHeading4">1 a 2 anos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Aqui</li>
-                <li class="list-group-item">Podem ter</li>
-                <li class="list-group-item">Algumas classificações</li>
-            </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Link do Vídeo</a>
+        </div>
+        <div id="card-list" data-bs-spy="scroll"> 
+            <div class="card mx-auto" style="width: 80%;">
+                <div class="card-body">
+                    <h5 class="card-title">Exercício 1</h5>
+                    <p id="idadeHeading1" class="card-text">Aqui vai a descrição do exercício.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Idade recomendada: <b>1 a 4 meses</b></li>
+                    <li class="list-group-item">Podem ter</li>
+                    <li class="list-group-item">Algumas classificações</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Link do Vídeo</a>
+                </div>
+                <iframe width="420" height="400" class="card-img-bottom"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
             </div>
-            <iframe width="420" height="315" class="card-img-bottom"
-                src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
+
+            <div class="card mx-auto" style="width: 80%; margin-top: 3%;">
+                <div class="card-body">
+                    <h5 class="card-title">Exercício 2</h5>
+                    <p class="card-text">Aqui vai a descrição do exercício.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Idade recomendada: <b>1 a 4 meses</b></li>
+                    <li class="list-group-item">Podem ter</li>
+                    <li class="list-group-item">Algumas classificações</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Link do Vídeo</a>
+                </div>
+                <iframe width="420" height="400" class="card-img-bottom"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+
+            <div class="card mx-auto" style="width: 80%; margin-top: 3%;">
+                <div class="card-body">
+                    <h5 class="card-title">Exercício 3</h5>
+                    <p class="card-text">Aqui vai a descrição do exercício.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Idade recomendada: <b>1 a 4 meses</b></li>
+                    <li class="list-group-item">Podem ter</li>
+                    <li class="list-group-item">Algumas classificações</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Link do Vídeo</a>
+                </div>
+                <iframe width="420" height="400" class="card-img-bottom"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+
+            <div class="card mx-auto" style="width: 80%; margin-top: 3%;">
+                <div class="card-body">
+                    <h5 class="card-title">Exercício 4</h5>
+                    <p id="idadeHeading2" class="card-text">Aqui vai a descrição do exercício.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Idade recomendada: <b>5 a 8 meses</b></li>
+                    <li class="list-group-item">Podem ter</li>
+                    <li class="list-group-item">Algumas classificações</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Link do Vídeo</a>
+                </div>
+                <iframe width="420" height="400" class="card-img-bottom"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
+
+            <div class="card mx-auto" style="width: 80%; margin-top: 3%;">
+                <div class="card-body">
+                    <h5 class="card-title">Exercício 5</h5>
+                    <p id="idadeHeading3" class="card-text">Aqui vai a descrição do exercício.</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Idade recomendada: <b>9 a 12 meses</b></li>
+                    <li class="list-group-item">Podem ter</li>
+                    <li class="list-group-item">Algumas classificações</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Link do Vídeo</a>
+                </div>
+                <iframe width="420" height="400" class="card-img-bottom"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe>
+            </div>
         </div>
     </section>
 </body>
