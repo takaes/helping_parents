@@ -31,3 +31,15 @@
 
 en:
   hello: "Hello world"
+  links:
+    edit: "Edit"
+    show: "Show"
+    create: "New"
+    create_admin: "New Admin"
+    update: "Update"
+    destroy: "Delete"
+    save: "Save"
+  menu:
+    adm_space: "Admin Backoffice"
+    home: "Home"
+    access_list: "Access List"

@@ -1,4 +1,18 @@
 'pt-BR':
+  links:
+    edit: "Editar"
+    show: "Mostrar"
+    create: "Novo"
+    create_admin: "Novo Administrador"
+    update: "Atualizar"
+    destroy: "Excluir"
+    save: "Salvar"
+    change_language: "Change language to English"
+    adm_space: "Espaço do Administrador"
+  menu:
+    adm_space: "Admin Backoffice"
+    home: "Página inicial"
+    access_list: "Lista de acesso"
   activerecord:
     models:
       admin:
@@ -6,6 +20,9 @@
         other: Administradores
     attributes:
       admin:
+        id: ID
         email: Email
+        password: Senha
+        password_confirmation: Confirmação da senha
         created_at: Data de criação
         updated_at: Data da última atualização
